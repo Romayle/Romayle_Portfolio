@@ -19,28 +19,28 @@ function NavBar() {
             <div className="hidden sm:block">
                 <nav className="flex gap-6 text-normal" aria-label="Tabs">
                 <a
-                    href="#"
+                    href="/"
                     className="shrink-0 rounded-lg p-2 font-medium text-gray-500 hover:bg-gray-50 hover:underline hover:decoration-solid hover:text-black"
                 >
                     Home
                 </a>
 
                 <a
-                    href="#"
+                    href="/about"
                     className="shrink-0 rounded-lg p-2 font-medium text-gray-500 hover:bg-gray-50 hover:underline hover:decoration-solid hover:text-black"
                 >
                     About
                 </a>
 
                 <a
-                    href="#"
+                    href="/projects"
                     className="shrink-0 rounded-lg p-2 font-medium text-gray-500 hover:bg-gray-50 hover:underline hover:decoration-solid hover:text-black"
                 >
                     Projects
                 </a>
 
                 <a
-                    href="#"
+                    href="/resume"
                     className="shrink-0 p-2 font-medium text-black underline decoration-solid"
                     aria-current="page"
                 >
